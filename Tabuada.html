@@ -12,13 +12,17 @@
 	</header>
 
 	<section>
-		<div id="dados">
 		<lable for="numero">Digite um numero</lable>
-		<p><input type="number" name="numero" id="numero">
-		<input type="button" value="Calcular" onclick="calcular()"></p>
-		</div>
-
-		<div id="resultado"></div>
+		<p><input type="number" name="numero" id="numero"></p>
+		<select>
+			<option value="">Escolha Uma Operação</option>
+			<option value="Soma">Soma</option>
+			<option value="Subtração">Subtração</option>
+			<option value="Multiplicação">Multiplicação</option>
+			<option value="Divisão">Divisão</option>
+		</select>
+		
+		<p id="resultado"></p>
 	</section>
 
 	<script src="Script.js"></script>
